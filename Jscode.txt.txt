@@ -1,0 +1,50 @@
+<!Doctype html>
+<head>
+    <body>
+        <h1>Calculate The Sum</h1>
+        <h1 id="answer"></h1>
+        Num 1<input type="text" id=num1>
+        <br>
+        Num 2<input type="text" id=num2>
+        <br>
+        <br>
+        <button onclick="calculate()">Calculate</button>
+        <script type="text/javascript">
+            function calculate(){
+                var box1=document.getElementById("num1").value;
+                var box2=document.getElementById("num2").value;
+
+                var result=parseFloat(box1) + parseFloat(box2);
+                if(!isNaN(result)){
+                    document.getElementById("answer").innerHTML="The answer is"+result;
+                    
+                }
+                result=Number(document.getElementById("a").value);
+                if(result%2==0){
+                    alert("The is Even Number");
+                }
+                else{
+                    alert("This is Odd Number")
+                }
+
+                
+            }
+            function check()
+            {
+                var a;
+                a=Number(document.getElementById("a").value);
+                if(a%2==0){
+                    alert("The is Even Number");
+                }
+                else{
+                    alert("This is Odd Number")
+                }
+            }
+        </script>
+    </body>
+</head>
+<body>
+    Enter the result:<input id= "a"><br>
+    <input type="button" onclick="check()" value="CHECK">
+</body>
+</html>

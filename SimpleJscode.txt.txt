@@ -1,0 +1,23 @@
+<!Doctype html>
+<head>
+    <body>
+        <script>
+            function check(){
+            var num;
+            num=Number(document.getElementById("num").value);
+            if(Number.isNaN(num)){
+                alert("This is not a number");
+            }
+            else{
+                alert("This is a number");
+            }
+            }
+        </script>
+    </body>
+</head>
+<body>
+    Enter the Number:<input id= "num"><br>
+    <input type="button" onclick="check()" value="CHECK"></button>
+</body>
+</html>
+    
