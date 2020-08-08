@@ -1,0 +1,77 @@
+<!Doctype html>
+<html lang = "en">
+<head>
+    <title>INTP_TASK</title>
+</head>
+<body>
+    <h3>Welcome to INTP</h3>
+    <p>We are doing the task of INPT where <u>we are learning html</u></p><br>
+    <h4><u>Examples of table</u></h4><br>
+    <table border="1" style="border-collapse: collapse; width: 100%;">
+        <tr>
+            <td>ID</td>
+            <td>Player</td>
+            <td>Runs</td>
+            <td>Wicket</td>
+            <td>AVG</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>X</td>
+            <td>10</td>
+            <td>2</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Y</td>
+            <td>50</td>
+            <td>1</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Z</t>
+            <td>60</td>
+            <td>1</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Q</td>
+            <td>90</td>
+            <td>9</td>
+            <td>89</td>
+        </tr>
+    </table><br>
+    <p><h4>More about table</h4></p>
+    <table  border="1" style="border-collapse: collapse; width: 100%;">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td colspan="3">4</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">O</td>
+            <td colspan="2">G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>Y</td>
+            <td>Z</td>
+            <td>V</td>
+        </tr>
+    </table>
+</body>
+</html>
